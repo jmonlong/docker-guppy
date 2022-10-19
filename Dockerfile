@@ -1,5 +1,5 @@
 # Set the base image to Ubuntu 18.04 and NVIDIA GPU
-FROM nvidia/cuda:11.1-base-ubuntu18.04
+FROM nvidia/cuda:11.8.0-base-ubuntu18.04
 CMD nvidia-smi
 
 # Reference
